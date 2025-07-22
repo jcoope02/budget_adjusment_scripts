@@ -1,6 +1,6 @@
 # Error Budget Adjustment Script
 
-**eba.py** is an advanced, interactive command-line tool for creating Error Budget Adjustment (EBA) YAML files for Nobl9 SLOs. It fetches SLO data from Nobl9, allows you to select projects, services, or individual SLOs, and generates ready-to-use YAML files with rich user input and validation.
+**eba_script_v1.0.py** is an advanced, interactive command-line tool for creating Error Budget Adjustment (EBA) YAML files for Nobl9 SLOs. It fetches SLO data from Nobl9, allows you to select projects, services, or individual SLOs, and generates ready-to-use YAML files with rich user input and validation.
 
 ## What does it do?
 - Connects to your Nobl9 environment using the `sloctl` CLI.
@@ -17,7 +17,7 @@
 - Choose event type (one-time or recurring) and specify RRULE for recurring events
 - Select by project, service, or individual SLOs (multi-select)
 - Embedded YAML template (no need for external template files)
-- Color-coded output for clarity (works on Windows, macOS, Linux)
+- Color-coded output for clarity 
 - Robust error handling and user guidance
 
 ## Typical Workflow
